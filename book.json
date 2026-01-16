@@ -24,7 +24,7 @@
             "showLevel": true
         },
         "insert-logo": {
-            "url": "../images/天途.png",
+            "url": "/images/天途.png",
             "style": "background: none; max-height: 75px; width: 98%; margin: 5px 0px;"
         },
         "sharing": {
