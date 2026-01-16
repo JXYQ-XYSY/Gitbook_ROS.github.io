@@ -1,0 +1,603 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>ROS1和ROS2的区别 · ROS课程</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="SYA">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="1.4 本课程所选版本.html" />
+    
+    
+    <link rel="prev" href="1.2 ROS核心目标.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    课程简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                        <b>1.2.</b>
+                    
+                    第一章 什么是ROS
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="1.1 什么是ROS.html">
+            
+                <a href="1.1 什么是ROS.html">
+            
+                    
+                        <b>1.2.1.</b>
+                    
+                    什么是ROS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="1.2 ROS核心目标.html">
+            
+                <a href="1.2 ROS核心目标.html">
+            
+                    
+                        <b>1.2.2.</b>
+                    
+                    ROS核心目标
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="1.3 ROS1和ROS2的区别.html">
+            
+                <a href="1.3 ROS1和ROS2的区别.html">
+            
+                    
+                        <b>1.2.3.</b>
+                    
+                    ROS1和ROS2的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="1.4 本课程所选版本.html">
+            
+                <a href="1.4 本课程所选版本.html">
+            
+                    
+                        <b>1.2.4.</b>
+                    
+                    本课程所选版本
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                        <b>1.3.</b>
+                    
+                    第二章 开发环境搭建
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../第二章 开发环境搭建/本章学习目标.html">
+            
+                <a href="../第二章 开发环境搭建/本章学习目标.html">
+            
+                    
+                        <b>1.3.1.</b>
+                    
+                    本章学习目标
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../第二章 开发环境搭建/2.1 VMware17 Pro虚拟机安装教程.html">
+            
+                <a href="../第二章 开发环境搭建/2.1 VMware17 Pro虚拟机安装教程.html">
+            
+                    
+                        <b>1.3.2.</b>
+                    
+                    VMware17Pro虚拟机安装教程么是ROS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../第二章 开发环境搭建/2.2 安装Linux Ubuntu20.04.html">
+            
+                <a href="../第二章 开发环境搭建/2.2 安装Linux Ubuntu20.04.html">
+            
+                    
+                        <b>1.3.3.</b>
+                    
+                    安装Linux-Ubuntu20.04
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../第二章 开发环境搭建/2.3 ROS安装.html">
+            
+                <a href="../第二章 开发环境搭建/2.3 ROS安装.html">
+            
+                    
+                        <b>1.3.4.</b>
+                    
+                    ROS安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../第二章 开发环境搭建/2.4 Vs code安装与配置.html">
+            
+                <a href="../第二章 开发环境搭建/2.4 Vs code安装与配置.html">
+            
+                    
+                        <b>1.3.5.</b>
+                    
+                    VSCode安装与配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../第二章 开发环境搭建/2.5 小结.html">
+            
+                <a href="../第二章 开发环境搭建/2.5 小结.html">
+            
+                    
+                        <b>1.3.6.</b>
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                        <b>1.4.</b>
+                    
+                    第三章 ROS核心基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../第三章 ROS核心基础/本章学习目标.html">
+            
+                <a href="../第三章 ROS核心基础/本章学习目标.html">
+            
+                    
+                        <b>1.4.1.</b>
+                    
+                    本章学习目标
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../第三章 ROS核心基础/3.1 ROS 系统架构与运行模型.html">
+            
+                <a href="../第三章 ROS核心基础/3.1 ROS 系统架构与运行模型.html">
+            
+                    
+                        <b>1.4.2.</b>
+                    
+                    ROS系统架构与运行模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../第三章 ROS核心基础/3.2 ROS 文件系统与组织结构.html">
+            
+                <a href="../第三章 ROS核心基础/3.2 ROS 文件系统与组织结构.html">
+            
+                    
+                        <b>1.4.3.</b>
+                    
+                    ROS文件系统与组织结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../第三章 ROS核心基础/3.3 ROS1 常用命令.html">
+            
+                <a href="../第三章 ROS核心基础/3.3 ROS1 常用命令.html">
+            
+                    
+                        <b>1.4.4.</b>
+                    
+                    ROS1常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../第三章 ROS核心基础/3.4 ROS 小海龟（turtlesim）运行与系统认识.html">
+            
+                <a href="../第三章 ROS核心基础/3.4 ROS 小海龟（turtlesim）运行与系统认识.html">
+            
+                    
+                        <b>1.4.5.</b>
+                    
+                    ROS小海龟（turtlesim）运行与系统认识
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../第三章 ROS核心基础/3.5  ROS 工作空间与功能包创建.html">
+            
+                <a href="../第三章 ROS核心基础/3.5  ROS 工作空间与功能包创建.html">
+            
+                    
+                        <b>1.4.6.</b>
+                    
+                    ROS工作空间与功能包创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../第三章 ROS核心基础/3.6 编写第一个 ROS 程序：Hello ROS（C++）.html">
+            
+                <a href="../第三章 ROS核心基础/3.6 编写第一个 ROS 程序：Hello ROS（C++）.html">
+            
+                    
+                        <b>1.4.7.</b>
+                    
+                    编写第一个ROS程序:HelloROS（C++）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../第三章 ROS核心基础/3.7 Launch 文件基础与系统启动.html">
+            
+                <a href="../第三章 ROS核心基础/3.7 Launch 文件基础与系统启动.html">
+            
+                    
+                        <b>1.4.8.</b>
+                    
+                    Launch文件基础与系统启动
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../第三章 ROS核心基础/3.8 Hello ROS + turtlesim 联合启动.html">
+            
+                <a href="../第三章 ROS核心基础/3.8 Hello ROS + turtlesim 联合启动.html">
+            
+                    
+                        <b>1.4.9.</b>
+                    
+                    Hello_ROS+turtlesim联合启动
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../第三章 ROS核心基础/本章综合实践与完成标准.html">
+            
+                <a href="../第三章 ROS核心基础/本章综合实践与完成标准.html">
+            
+                    
+                        <b>1.4.10.</b>
+                    
+                    本章综合实践与完成标准
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >ROS1和ROS2的区别</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="13-ros1&#x4E0E;ros2&#x7684;&#x533A;&#x522B;">1.3 ROS1&#x4E0E;ROS2&#x7684;&#x533A;&#x522B;</h3>
+<p>&#x968F;&#x7740;&#x673A;&#x5668;&#x4EBA;&#x5E94;&#x7528;&#x843D;&#x5730;&#x9700;&#x6C42;&#x589E;&#x591A;&#xFF0C;ROS1 &#x9010;&#x6E10;&#x66B4;&#x9732;&#x4E00;&#x4E9B;&#x4E0D;&#x8DB3;&#xFF0C;&#x5982;&#x5B9E;&#x65F6;&#x6027;&#x3001;&#x901A;&#x4FE1;&#x53EF;&#x9760;&#x6027;&#x7B49;&#xFF0C;&#x56E0;&#x6B64; ROS2 &#x8BDE;&#x751F;&#x3002;</p>
+<p>&#x4E0B;&#x8868;&#x4E3A;&#x4E24;&#x8005;&#x4E3B;&#x8981;&#x5DEE;&#x5F02;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>&#x5BF9;&#x6BD4;&#x9879;</th>
+<th>ROS1 (&#x672C;&#x8BFE;&#x7A0B;&#x4F7F;&#x7528;)</th>
+<th>ROS2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x901A;&#x4FE1;&#x4E2D;&#x95F4;&#x4EF6;</td>
+<td>&#x81EA;&#x7814; TCPROS/UDPROS</td>
+<td>DDS&#x5DE5;&#x4E1A;&#x7EA7;&#x4E2D;&#x95F4;&#x4EF6;&#xFF08;&#x5B9E;&#x65F6;&#x6027;&#x66F4;&#x5F3A;&#xFF09;</td>
+</tr>
+<tr>
+<td>&#x53C2;&#x6570;&#x670D;&#x52A1;&#x5668;</td>
+<td>&#x6709;&#x4E2D;&#x592E;&#x53C2;&#x6570;&#x670D;&#x52A1;&#x5668;</td>
+<td>&#x5206;&#x5E03;&#x5F0F;&#x53C2;&#x6570;&#x7CFB;&#x7EDF;</td>
+</tr>
+<tr>
+<td>&#x591A;&#x5E73;&#x53F0;&#x652F;&#x6301;</td>
+<td>&#x4E3B;&#x8981; Linux</td>
+<td>Linux/Windows/MacOS</td>
+</tr>
+<tr>
+<td>&#x751F;&#x547D;&#x5468;&#x671F;&#x7BA1;&#x7406;</td>
+<td>&#x4E0D;&#x652F;&#x6301;</td>
+<td>&#x652F;&#x6301;&#x8282;&#x70B9;&#x751F;&#x547D;&#x5468;&#x671F;&#x7BA1;&#x7406;</td>
+</tr>
+<tr>
+<td>&#x53D1;&#x5E03;&#x5468;&#x671F;</td>
+<td>&#x5DF2;&#x505C;&#x6B62;&#x4E3B;&#x7EBF;&#x66F4;&#x65B0;</td>
+<td>&#x6301;&#x7EED;&#x8FED;&#x4EE3;&#x53D1;&#x5C55;</td>
+</tr>
+</tbody>
+</table>
+<hr>
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1.2 ROS核心目标.html" class="navigation navigation-prev " aria-label="Previous page: ROS核心目标">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="1.4 本课程所选版本.html" class="navigation navigation-next " aria-label="Next page: 本课程所选版本">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"ROS1和ROS2的区别","level":"1.2.3","depth":2,"next":{"title":"本课程所选版本","level":"1.2.4","depth":2,"path":"第一章 什么是ROS/1.4 本课程所选版本.md","ref":"第一章 什么是ROS/1.4 本课程所选版本.md","articles":[]},"previous":{"title":"ROS核心目标","level":"1.2.2","depth":2,"path":"第一章 什么是ROS/1.2 ROS核心目标.md","ref":"第一章 什么是ROS/1.2 ROS核心目标.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","highlight","-search","sharing","fontsettings","livereload","-lunr","insert-logo","livereload"],"root":".","styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"insert-logo":{"style":"background: none; max-height: 75px; width: 98%; margin: 5px 0px;","url":"../images/天途.png"},"sharing":{"all":["facebook","twitter","weibo","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":true},"highlight":{},"fontsettings":{"family":"sans","size":2,"theme":"white"},"livereload":{}},"theme":"default","author":"SYA","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"ROS课程","language":"zh-hans","gitbook":"3.2.3","description":"ROS课程-北方天途"},"file":{"path":"第一章 什么是ROS/1.3 ROS1和ROS2的区别.md","mtime":"2026-01-16T12:40:32.739Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2026-01-16T14:09:17.118Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+
+    </body>
+</html>
+
