@@ -1,0 +1,42 @@
+{
+    "title": "ROS课程",
+    "description": "ROS课程-北方天途",
+    "author": "SYA",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "structure": {
+        "readme": "README.md",
+        "summary": "SUMMARY.md"
+    },
+    "plugins": [
+        "theme-default",
+        "highlight",
+        "-search",
+        "sharing",
+        "fontsettings",
+        "livereload",
+        "-lunr",
+        "insert-logo"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "insert-logo": {
+            "url": "../images/天途.png",
+            "style": "background: none; max-height: 75px; width: 98%; margin: 5px 0px;"
+        },
+        "sharing": {
+            "facebook": true,
+            "twitter": true,
+            "google": false,
+            "weibo": true,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "twitter", "weibo"
+            ]
+        }
+    }
+}
