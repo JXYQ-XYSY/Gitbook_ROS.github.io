@@ -1,0 +1,721 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>本章小结 · ROS课程</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="SYA">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="4.6  通过 turtlesim 认识 Service 通信机制.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    课程简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                        <b>1.2.</b>
+                    
+                    第一章 什么是ROS
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../第一章 什么是ROS/1.1 什么是ROS.html">
+            
+                <a href="../第一章 什么是ROS/1.1 什么是ROS.html">
+            
+                    
+                        <b>1.2.1.</b>
+                    
+                    什么是ROS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../第一章 什么是ROS/1.2 ROS核心目标.html">
+            
+                <a href="../第一章 什么是ROS/1.2 ROS核心目标.html">
+            
+                    
+                        <b>1.2.2.</b>
+                    
+                    ROS核心目标
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../第一章 什么是ROS/1.3 ROS1和ROS2的区别.html">
+            
+                <a href="../第一章 什么是ROS/1.3 ROS1和ROS2的区别.html">
+            
+                    
+                        <b>1.2.3.</b>
+                    
+                    ROS1和ROS2的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../第一章 什么是ROS/1.4 本课程所选版本.html">
+            
+                <a href="../第一章 什么是ROS/1.4 本课程所选版本.html">
+            
+                    
+                        <b>1.2.4.</b>
+                    
+                    本课程所选版本
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                        <b>1.3.</b>
+                    
+                    第二章 开发环境搭建
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../第二章 开发环境搭建/本章学习目标.html">
+            
+                <a href="../第二章 开发环境搭建/本章学习目标.html">
+            
+                    
+                        <b>1.3.1.</b>
+                    
+                    本章学习目标
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../第二章 开发环境搭建/2.1 VMware17 Pro虚拟机安装教程.html">
+            
+                <a href="../第二章 开发环境搭建/2.1 VMware17 Pro虚拟机安装教程.html">
+            
+                    
+                        <b>1.3.2.</b>
+                    
+                    VMware17Pro虚拟机安装教程么是ROS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../第二章 开发环境搭建/2.2 安装Linux Ubuntu20.04.html">
+            
+                <a href="../第二章 开发环境搭建/2.2 安装Linux Ubuntu20.04.html">
+            
+                    
+                        <b>1.3.3.</b>
+                    
+                    安装Linux-Ubuntu20.04
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../第二章 开发环境搭建/2.3 ROS安装.html">
+            
+                <a href="../第二章 开发环境搭建/2.3 ROS安装.html">
+            
+                    
+                        <b>1.3.4.</b>
+                    
+                    ROS安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../第二章 开发环境搭建/2.4 Vs code安装与配置.html">
+            
+                <a href="../第二章 开发环境搭建/2.4 Vs code安装与配置.html">
+            
+                    
+                        <b>1.3.5.</b>
+                    
+                    VSCode安装与配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../第二章 开发环境搭建/2.5 小结.html">
+            
+                <a href="../第二章 开发环境搭建/2.5 小结.html">
+            
+                    
+                        <b>1.3.6.</b>
+                    
+                    小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                        <b>1.4.</b>
+                    
+                    第三章 ROS核心基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../第三章 ROS核心基础/本章学习目标.html">
+            
+                <a href="../第三章 ROS核心基础/本章学习目标.html">
+            
+                    
+                        <b>1.4.1.</b>
+                    
+                    本章学习目标
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../第三章 ROS核心基础/3.1 ROS 系统架构与运行模型.html">
+            
+                <a href="../第三章 ROS核心基础/3.1 ROS 系统架构与运行模型.html">
+            
+                    
+                        <b>1.4.2.</b>
+                    
+                    ROS系统架构与运行模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../第三章 ROS核心基础/3.2 ROS 文件系统与组织结构.html">
+            
+                <a href="../第三章 ROS核心基础/3.2 ROS 文件系统与组织结构.html">
+            
+                    
+                        <b>1.4.3.</b>
+                    
+                    ROS文件系统与组织结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../第三章 ROS核心基础/3.3 ROS1 常用命令.html">
+            
+                <a href="../第三章 ROS核心基础/3.3 ROS1 常用命令.html">
+            
+                    
+                        <b>1.4.4.</b>
+                    
+                    ROS1常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../第三章 ROS核心基础/3.4 ROS 小海龟（turtlesim）运行与系统认识.html">
+            
+                <a href="../第三章 ROS核心基础/3.4 ROS 小海龟（turtlesim）运行与系统认识.html">
+            
+                    
+                        <b>1.4.5.</b>
+                    
+                    ROS小海龟（turtlesim）运行与系统认识
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../第三章 ROS核心基础/3.5  ROS 工作空间与功能包创建.html">
+            
+                <a href="../第三章 ROS核心基础/3.5  ROS 工作空间与功能包创建.html">
+            
+                    
+                        <b>1.4.6.</b>
+                    
+                    ROS工作空间与功能包创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../第三章 ROS核心基础/3.6 编写第一个 ROS 程序：Hello ROS（C++）.html">
+            
+                <a href="../第三章 ROS核心基础/3.6 编写第一个 ROS 程序：Hello ROS（C++）.html">
+            
+                    
+                        <b>1.4.7.</b>
+                    
+                    编写第一个ROS程序:HelloROS（C++）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../第三章 ROS核心基础/3.7 Launch 文件基础与系统启动.html">
+            
+                <a href="../第三章 ROS核心基础/3.7 Launch 文件基础与系统启动.html">
+            
+                    
+                        <b>1.4.8.</b>
+                    
+                    Launch文件基础与系统启动
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../第三章 ROS核心基础/3.8 Hello ROS + turtlesim 联合启动.html">
+            
+                <a href="../第三章 ROS核心基础/3.8 Hello ROS + turtlesim 联合启动.html">
+            
+                    
+                        <b>1.4.9.</b>
+                    
+                    Hello_ROS+turtlesim联合启动
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../第三章 ROS核心基础/本章综合实践与完成标准.html">
+            
+                <a href="../第三章 ROS核心基础/本章综合实践与完成标准.html">
+            
+                    
+                        <b>1.4.10.</b>
+                    
+                    本章综合实践与完成标准
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                        <b>1.5.</b>
+                    
+                    第四章 ROS通信机制
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="本章学习目标.html">
+            
+                <a href="本章学习目标.html">
+            
+                    
+                        <b>1.5.1.</b>
+                    
+                    本章学习目标
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="4.1 ROS 通信模型总览.html">
+            
+                <a href="4.1 ROS 通信模型总览.html">
+            
+                    
+                        <b>1.5.2.</b>
+                    
+                    ROS通信模型总览
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="4.2 Topic 话题通信机制.html">
+            
+                <a href="4.2 Topic 话题通信机制.html">
+            
+                    
+                        <b>1.5.3.</b>
+                    
+                    Topic话题通信机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="4.3 编写 Topic 发布者与订阅者（C++）.html">
+            
+                <a href="4.3 编写 Topic 发布者与订阅者（C++）.html">
+            
+                    
+                        <b>1.5.4.</b>
+                    
+                    编写Topic发布者与订阅者（C++）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="4.4 编写 Topic 发布者与订阅者（Python）.html">
+            
+                <a href="4.4 编写 Topic 发布者与订阅者（Python）.html">
+            
+                    
+                        <b>1.5.5.</b>
+                    
+                    编写Topic发布者与订阅者（Python）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="4.5 Service 服务通信机制.html">
+            
+                <a href="4.5 Service 服务通信机制.html">
+            
+                    
+                        <b>1.5.6.</b>
+                    
+                    Service服务通信机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="4.6  通过 turtlesim 认识 Service 通信机制.html">
+            
+                <a href="4.6  通过 turtlesim 认识 Service 通信机制.html">
+            
+                    
+                        <b>1.5.7.</b>
+                    
+                    通过 turtlesim 认识 Service 通信机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.8" data-path="本章小结.html">
+            
+                <a href="本章小结.html">
+            
+                    
+                        <b>1.5.8.</b>
+                    
+                    本章小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >本章小结</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x672C;&#x7AE0;&#x5C0F;&#x7ED3;">&#x672C;&#x7AE0;&#x5C0F;&#x7ED3;</h2>
+<p>&#x672C;&#x7AE0;&#x56F4;&#x7ED5; <strong>ROS &#x901A;&#x4FE1;&#x673A;&#x5236;</strong> &#x8FD9;&#x4E00;&#x6838;&#x5FC3;&#x4E3B;&#x9898;&#xFF0C;&#x7CFB;&#x7EDF;&#x8BB2;&#x89E3;&#x4E86;&#x8282;&#x70B9;&#x4E4B;&#x95F4;&#x5982;&#x4F55;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x4EA4;&#x6362;&#x4E0E;&#x534F;&#x540C;&#x63A7;&#x5236;&#x3002;</p>
+<p>&#x6211;&#x4EEC;&#x9996;&#x5148;&#x4ECE;&#x6574;&#x4F53;&#x901A;&#x4FE1;&#x6A21;&#x578B;&#x51FA;&#x53D1;&#xFF0C;&#x7406;&#x89E3;&#x4E86; ROS &#x91C7;&#x7528;&#x5206;&#x5E03;&#x5F0F;&#x3001;&#x89E3;&#x8026;&#x5F0F;&#x901A;&#x4FE1;&#x8BBE;&#x8BA1;&#x7684;&#x539F;&#x56E0;&#xFF0C;&#x5E76;&#x660E;&#x786E;&#x4E86; ROS &#x4E2D;&#x4E09;&#x79CD;&#x4E3B;&#x8981;&#x901A;&#x4FE1;&#x65B9;&#x5F0F;&#x7684;&#x5B9A;&#x4F4D;&#x3002;</p>
+<p>&#x968F;&#x540E;&#xFF0C;&#x91CD;&#x70B9;&#x5B66;&#x4E60;&#x4E86; <strong>Topic &#x8BDD;&#x9898;&#x901A;&#x4FE1;&#x673A;&#x5236;</strong>&#xFF1A;</p>
+<ul>
+<li>&#x7406;&#x89E3;&#x4E86;&#x53D1;&#x5E03; / &#x8BA2;&#x9605;&#x6A21;&#x578B;</li>
+<li>&#x638C;&#x63E1;&#x4E86; Topic &#x7684;&#x5DE5;&#x4F5C;&#x6D41;&#x7A0B;</li>
+<li>&#x5206;&#x522B;&#x4F7F;&#x7528; C++ &#x4E0E; Python &#x5B9E;&#x73B0;&#x4E86;&#x5B8C;&#x6574;&#x7684; Publisher &#x4E0E; Subscriber</li>
+<li>&#x901A;&#x8FC7;&#x547D;&#x4EE4;&#x884C;&#x5DE5;&#x5177;&#x76F4;&#x89C2;&#x89C2;&#x5BDF;&#x4E86;&#x6570;&#x636E;&#x6D41;&#x52A8;&#x8FC7;&#x7A0B;</li>
+</ul>
+<p>&#x5728;&#x6B64;&#x57FA;&#x7840;&#x4E0A;&#xFF0C;&#x6211;&#x4EEC;&#x8FDB;&#x4E00;&#x6B65;&#x5B66;&#x4E60;&#x4E86; <strong>Service &#x670D;&#x52A1;&#x901A;&#x4FE1;&#x673A;&#x5236;</strong>&#xFF1A;</p>
+<ul>
+<li>&#x7406;&#x89E3;&#x4E86;&#x540C;&#x6B65;&#x8BF7;&#x6C42;&#x2014;&#x54CD;&#x5E94;&#x6A21;&#x578B;</li>
+<li>&#x660E;&#x786E;&#x4E86; Service &#x4E0E; Topic &#x5728;&#x4F7F;&#x7528;&#x573A;&#x666F;&#x4E0A;&#x7684;&#x6839;&#x672C;&#x533A;&#x522B;</li>
+<li>&#x901A;&#x8FC7; turtlesim &#x793A;&#x4F8B;&#xFF0C;&#x4F53;&#x9A8C;&#x4E86; Service &#x6267;&#x884C;&#x201C;&#x4E00;&#x6B21;&#x6027;&#x63A7;&#x5236;&#x547D;&#x4EE4;&#x201D;&#x7684;&#x5178;&#x578B;&#x5E94;&#x7528;</li>
+<li>&#x7F16;&#x5199;&#x5E76;&#x8FD0;&#x884C;&#x4E86; C++ Service Client&#xFF0C;&#x5B8C;&#x6210;&#x4E86;&#x4ECE;&#x7A0B;&#x5E8F;&#x5C42;&#x9762;&#x8C03;&#x7528; Service &#x7684;&#x5B8C;&#x6574;&#x6D41;&#x7A0B;</li>
+</ul>
+<p>&#x901A;&#x8FC7;&#x672C;&#x7AE0;&#x5B66;&#x4E60;&#xFF0C;&#x4F60;&#x5DF2;&#x7ECF;&#x4E0D;&#x518D;&#x53EA;&#x662F;&#x201C;&#x542F;&#x52A8;&#x8282;&#x70B9;&#x201D;&#xFF0C;
+ &#x800C;&#x662F;&#x771F;&#x6B63;&#x638C;&#x63E1;&#x4E86; <strong>ROS &#x8282;&#x70B9;&#x5982;&#x4F55;&#x5F7C;&#x6B64;&#x901A;&#x4FE1;&#x3001;&#x5982;&#x4F55;&#x534F;&#x540C;&#x5DE5;&#x4F5C;</strong>&#x3002;</p>
+<blockquote>
+<p>&#x4ECE;&#x8FD9;&#x4E00;&#x7AE0;&#x5F00;&#x59CB;&#xFF0C;ROS &#x4E0D;&#x518D;&#x662F;&#x201C;&#x4E00;&#x5806;&#x547D;&#x4EE4;&#x548C;&#x4EE3;&#x7801;&#x201D;&#xFF0C;
+ &#x800C;&#x662F;&#x4E00;&#x4E2A;<strong>&#x53EF;&#x88AB;&#x7406;&#x89E3;&#x3001;&#x53EF;&#x88AB;&#x8BBE;&#x8BA1;&#x3001;&#x53EF;&#x88AB;&#x8C03;&#x8BD5;&#x7684;&#x7CFB;&#x7EDF;</strong>&#x3002;</p>
+</blockquote>
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="4.6  通过 turtlesim 认识 Service 通信机制.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 通过 turtlesim 认识 Service 通信机制">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"本章小结","level":"1.5.8","depth":2,"previous":{"title":"通过 turtlesim 认识 Service 通信机制","level":"1.5.7","depth":2,"path":"第四章 ROS通信机制/4.6  通过 turtlesim 认识 Service 通信机制.md","ref":"第四章 ROS通信机制/4.6  通过 turtlesim 认识 Service 通信机制.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","highlight","-search","sharing","fontsettings","livereload","-lunr","insert-logo","livereload"],"root":".","styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"insert-logo":{"style":"background: none; max-height: 75px; width: 98%; margin: 5px 0px;","url":"../images/天途.png"},"sharing":{"all":["facebook","twitter","weibo","weibo","instapaper"],"facebook":true,"google":false,"instapaper":false,"twitter":true,"vk":false,"weibo":true},"highlight":{},"fontsettings":{"family":"sans","size":2,"theme":"white"},"livereload":{}},"theme":"default","author":"SYA","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"ROS课程","language":"zh-hans","gitbook":"3.2.3","description":"ROS课程-北方天途"},"file":{"path":"第四章 ROS通信机制/本章小结.md","mtime":"2026-01-20T14:53:35.005Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2026-01-20T15:12:24.413Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+
+    </body>
+</html>
+

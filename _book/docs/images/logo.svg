@@ -1,0 +1,14 @@
+<svg width="250" height="60" viewBox="0 0 250 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="250" height="60" fill="#4A90E2" rx="8"/>
+
+  <!-- 左侧图标 -->
+  <circle cx="30" cy="30" r="20" fill="white" opacity="0.9"/>
+  <text x="30" y="37" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#4A90E2">Z</text>
+
+  <!-- 文字内容 - 水平居中显示 -->
+  <text x="125" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">张小明的小站</text>
+
+  <!-- 装饰线条 -->
+  <line x1="60" y1="15" x2="60" y2="45" stroke="white" stroke-width="1" opacity="0.3"/>
+</svg>
